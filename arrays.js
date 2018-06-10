@@ -17,6 +17,16 @@ function addElementToBeginningOfArray(arr, e){
   return newArray;
 }
 
+function destructivelyRemoveElementFromBeginningOfArray(arr){
+  for(var i=0; i<arr.length-1; i++){
+    arr[i] = arr[i+1]
+  }
+  arr.pop()
+  return arr;
+  
+}
+}
+
 function accessElementInArray(arr, i){
   return arr[i]
 }
