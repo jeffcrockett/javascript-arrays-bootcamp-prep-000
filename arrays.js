@@ -16,3 +16,7 @@ function addElementToBeginningOfArray(arr, e){
   newArray[0] = e;
   return newArray;
 }
+
+function accessElementInArray(arr, i){
+  return arr[i]
+}
